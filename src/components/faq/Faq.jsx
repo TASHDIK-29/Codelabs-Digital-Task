@@ -4,7 +4,7 @@ import { FaAngleDown } from "react-icons/fa";
 
 const Faq = () => {
     return (
-        <div className="p-8">
+        <div className="px-8">
             <SectionHeading heading={'Frequently Asked Question'} subHeading={'Faq'}></SectionHeading>
             <section className="">
                 <div className="px-2 mx-auto">

@@ -8,9 +8,9 @@ import { FaStar } from "react-icons/fa";
 
 const Testimonial = () => {
     return (
-        <div className="space-y-8 p-8">
+        <div className="space-y-8 px-8">
             <SectionHeading heading={'What they say about us'} subHeading={'Testimonial'}></SectionHeading>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="px-8 py-4 bg-white rounded-lg shadow-md ">
                     <div className="mt-2">
                         <h1 className="text-xl font-bold text-gray-700  hover:text-gray-600">Expertise and Compassion Combined</h1>
@@ -19,7 +19,7 @@ const Testimonial = () => {
 
                     <div className="flex items-center justify-between mt-4">
                         <div className="flex items-center gap-2">
-                            <img className="hidden object-cover w-10 h-10  rounded-full sm:block" src={img3} alt="avatar" />
+                            <img className=" object-cover w-10 h-10  rounded-full sm:block" src={img3} alt="avatar" />
                             <div>
                                 <h3 className="font-bold text-gray-700">Sarah D, <span className="font-normal">IT Professional</span></h3>
                                 <div className="flex gap-2">
@@ -37,7 +37,7 @@ const Testimonial = () => {
 
                     <div className="flex items-center justify-between mt-4">
                         <div className="flex items-center gap-2">
-                            <img className="hidden object-cover w-10 h-10  rounded-full sm:block" src={img2} alt="avatar" />
+                            <img className=" object-cover w-10 h-10  rounded-full sm:block" src={img2} alt="avatar" />
                             <div>
                             <h3 className="font-bold text-gray-700">Michael R, <span className="font-normal">Business Executive</span></h3>
                                 <div className="flex gap-2">
@@ -56,7 +56,7 @@ const Testimonial = () => {
 
                     <div className="flex items-center justify-between mt-4">
                         <div className="flex items-center gap-2">
-                            <img className="hidden object-cover w-10 h-10  rounded-full sm:block" src={img1} alt="avatar" />
+                            <img className=" object-cover w-10 h-10  rounded-full sm:block" src={img1} alt="avatar" />
                             <div>
                             <h3 className="font-bold text-gray-700">David S, <span className="font-normal">Lawyer</span></h3>
                                 <div className="flex gap-2">
@@ -67,7 +67,7 @@ const Testimonial = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center my-4">
+            <div className="flex justify-center mt-4">
                 <img src={img4} alt="" />
             </div>
         </div>

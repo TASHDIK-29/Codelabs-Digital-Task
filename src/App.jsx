@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className='container mx-auto space-y-6'>
+      <div className='container mx-auto space-y-6 px-0'>
         <Navbar></Navbar>
         <div className=' space-y-28'>
           <Banner></Banner>

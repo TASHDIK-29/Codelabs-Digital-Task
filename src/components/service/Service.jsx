@@ -5,8 +5,8 @@ import img2 from "../../assets/Media/service2.png";
 import img3 from "../../assets/Media/service3.png";
 const Service = () => {
     return (
-        <div className="grid grid-cols-2 gap-0 ">
-            <div className="pt-16 px-24 space-y-10 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-0 ">
+            <div className="pt-16 px-8 md:px-24 space-y-10 ">
                 <SectionHeading heading={'Empowering Health, Enriching Lives'} subHeading={'Service'}></SectionHeading>
 
                 <p>We are committed to providing high-quality, compassionate care to every patient we serve. Whatever your healthcare needs may be, you can trust us to be your partner in health and wellness.</p>
@@ -16,7 +16,7 @@ const Service = () => {
                 <div className="">
                     <img className="rounded-3xl" src={img1} alt="" />
                 </div>
-                <div className="bg-violet-950/50 p-4 rounded-xl w-2/5  absolute bottom-12 left-12 flex">
+                <div className="bg-violet-950/50 p-4 rounded-xl w-4/5 md:w-2/5  absolute bottom-12 md:left-12 flex">
                     <div>
                         <h3 className="text-lg font-semibold text-white">Our mission is simple</h3>
                         <p className="text-xs text-white">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
@@ -30,7 +30,7 @@ const Service = () => {
                 <div className=" flex justify-end">
                     <img className="rounded-3xl" src={img2} alt="" />
                 </div>
-                <div className="bg-violet-950/50 p-4 rounded-xl w-2/5  absolute bottom-12 left-28 flex">
+                <div className="bg-violet-950/50 p-4 rounded-xl w-4/5 md:w-2/5  absolute bottom-12 md:left-28 flex">
                     <div>
                         <h3 className="text-lg font-semibold text-white">Online Doctor Meet</h3>
                         <p className="text-xs text-white">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>
@@ -44,7 +44,7 @@ const Service = () => {
                 <div className="">
                     <img className="rounded-3xl" src={img3} alt="" />
                 </div>
-                <div className="bg-violet-950/50 p-4 rounded-xl w-2/5  absolute bottom-12 left-12 flex">
+                <div className="bg-violet-950/50 p-4 rounded-xl w-4/5 md:w-2/5  absolute bottom-12 md:left-12 flex">
                     <div>
                         <h3 className="text-lg font-semibold text-white">Consultancy your health</h3>
                         <p className="text-xs text-white">Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision</p>

@@ -4,7 +4,7 @@ import { FaFacebook, FaYoutube, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className="bg-[#020043] mt-20">
-            <div className="container p-20 mx-auto">
+            <div className="container p-12 md:p-20 mx-auto">
                 <div className="lg:flex">
                     <div className="w-full -mx-6 lg:w-2/5">
                         <div className="space-y-5">
@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
 
                     <div className="mt-6 lg:mt-0 lg:flex-1">
-                        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+                        <div className="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                             <div className="space-y-3">
                                 <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Home</a>
                                 <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">About us
@@ -34,7 +34,7 @@ const Footer = () => {
                                 <a href="#" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Patient Portal</a>
                             </div>
 
-                            <div>
+                            <div className=" col-span-2 md:col-span-1">
                                 <h3 className="text-gray-700 uppercase dark:text-white">Follow Us</h3>
                                 <div className="flex gap-3 mt-2 mb-6">
                                     <a href=""><FaFacebook  className="text-xl text-white" /></a>
@@ -42,7 +42,7 @@ const Footer = () => {
                                     <a href=""><FaLinkedin  className="text-xl text-white" /></a>
                                     <a href=""><FaYoutube   className="text-xl text-white" /></a>   
                                 </div>
-                                <div>
+                                <div className=" w-full">
                                     <p className="text-start text-gray-500 dark:text-gray-400">@docplus 2024</p>
                                 </div>
                             </div>
