@@ -12,7 +12,7 @@ const Navbar = () => {
     </>
     return (
         <div className="navbar bg-base-100 my-4">
-            <div className="navbar-start">
+            <div className="navbar-start w-full">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
@@ -36,12 +36,14 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <img src={navImg} alt="navImg" />
+                <div className=" w-full mx-auto">
+                    <img className="mx-auto lg:mx-0" src={navImg} alt="navImg" />
+                </div>
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+            <div className="navbar-center w-1/2 hidden lg:flex">
+                <ul className="mx-8 menu menu-horizontal px-1">
                     {navLinks}
-                    
+
                 </ul>
             </div>
             <div className="hidden lg:flex navbar-end">
