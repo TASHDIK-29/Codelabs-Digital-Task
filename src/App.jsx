@@ -2,6 +2,7 @@
 import './App.css'
 import Banner from './components/banner/Banner'
 import Navbar from './components/navbar/Navbar'
+import Service from './components/service/Service'
 import WhoWeAre from './components/whoWeAre/WhoWeAre'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <div className=' space-y-28'>
           <Banner></Banner>
           <WhoWeAre></WhoWeAre>
+          <Service></Service>
         </div>
       </div>
     </>

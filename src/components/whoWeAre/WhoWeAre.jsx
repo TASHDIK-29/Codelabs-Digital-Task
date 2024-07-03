@@ -1,14 +1,13 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import img from "../../assets/Media/whoweare.png";
+import SectionHeading from "../../shared/SectionHeading";
 
 const WhoWeAre = () => {
     return (
         <div className=" flex justify-between">
             <div className="w-1/2 px-8 space-y-10">
-                <div className="space-y-4">
-                    <button className=" rounded-2xl px-2 py-1">Who we are</button>
-                    <h1 className="text-3xl font-bold">We Help To Get Solutions</h1>
-                </div>
+                <SectionHeading heading={'We Help To Get Solutions'} subHeading={'Who we are'}></SectionHeading>
+                
                 <p>We are proud to be a trusted healthcare provider in our community, and we look forward to serving you and your family with excellence, integrity, and compassion. Your health is our priority, and we are here for you every step of the way. We believe in treating each patient with dignity, respect, and empathy, ensuring that they receive the attention and care they deserve.</p>
                 <button className="btn bg-yellow-500 hover:bg-yellow-500">Learn more <FiArrowUpRight className="text-lg" /></button>
             </div>
