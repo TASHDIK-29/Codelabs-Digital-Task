@@ -14,7 +14,7 @@ const Banner = () => {
             {/* <div className="banner-img"></div> */}
             <div className="h-80 grid grid-cols-5 grid-rows-3 my-6">
                 <div className=" row-span-3 py-4 rounded-2xl flex items-end px-8">
-                    <div className="border border-green-500 py-2 rounded-2xl">
+                    <div className="shadow-lg py-2 rounded-2xl">
                         <div className="mb-4 px-2">
                             <h1 className="text-3xl font-bold">90%</h1>
                             <p>Patient satisfaction rate, reflecting our commitment.</p>
@@ -28,7 +28,7 @@ const Banner = () => {
                     </h1>
                 </div>
                 <div className=" row-span-3  py-4 rounded-2xl flex items-end px-8">
-                    <div className="border border-green-500 p-2 rounded-2xl">
+                    <div className="shadow-lg p-2 rounded-2xl">
                         <div className="mb-4">
                             <h1 className="text-3xl font-bold">50+</h1>
                             <p>Free lesson video for patient</p>
@@ -37,7 +37,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className=" row-span-2 rounded-2xl flex items-end p-4">
-                    <div className="border border-green-500 p-2 rounded-2xl w-full">
+                    <div className="shadow-lg p-2 rounded-2xl w-full">
                         <div className="mb-4">
                             <h1 className="text-3xl font-bold">500+</h1>
                             <p>Board-certified doctors</p>
@@ -48,7 +48,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className=" row-span-2 flex items-end p-4">
-                    <div className="border border-green-500 p-4 w-full rounded-2xl">
+                    <div className="shadow-lg p-4 w-full rounded-2xl">
                         <div className="mb-4">
                             <h1 className="text-3xl font-bold">4.8</h1>
                             <p>Over 20,000 Patient</p>
@@ -57,7 +57,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className=" row-span-2 rounded-2xl flex items-end p-4">
-                    <div className="border border-green-500 p-2 rounded-2xl w-full">
+                    <div className="shadow-lg p-2 rounded-2xl w-full">
                         <div className="mb-4">
                             <h1 className="text-3xl font-bold">$5000</h1>
                             <p>Money spend for poor patient</p>
