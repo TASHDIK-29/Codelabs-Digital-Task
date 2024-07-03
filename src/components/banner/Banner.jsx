@@ -9,7 +9,7 @@ import './banner.css'
 
 const Banner = () => {
     return (
-        <div className="my-6">
+        <div className="">
             <img className="mx-auto" src={bannerImg} alt="" />
             {/* <div className="banner-img"></div> */}
             <div className="h-80 grid grid-cols-5 grid-rows-3 my-6">
