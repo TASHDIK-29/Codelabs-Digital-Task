@@ -2,12 +2,13 @@ import SectionHeading from "../../shared/SectionHeading";
 import img1 from "../../assets/Media/testimonial1.png";
 import img2 from "../../assets/Media/testimonial2.png";
 import img3 from "../../assets/Media/testimonial3.png";
+import img4 from "../../assets/Media/pagination.png";
 import { FaStar } from "react-icons/fa";
 
 
 const Testimonial = () => {
     return (
-        <div className="space-y-8">
+        <div className="space-y-8 p-8">
             <SectionHeading heading={'What they say about us'} subHeading={'Testimonial'}></SectionHeading>
             <div className="grid grid-cols-3 gap-4">
                 <div className="px-8 py-4 bg-white rounded-lg shadow-md ">
@@ -65,6 +66,9 @@ const Testimonial = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center my-4">
+                <img src={img4} alt="" />
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 
 import './App.css'
 import Banner from './components/banner/Banner'
+import Faq from './components/faq/Faq'
 import Navbar from './components/navbar/Navbar'
 import Service from './components/service/Service'
 import Testimonial from './components/testimonial/Testimonial'
@@ -17,6 +18,7 @@ function App() {
           <WhoWeAre></WhoWeAre>
           <Service></Service>
           <Testimonial></Testimonial>
+          <Faq></Faq>
         </div>
       </div>
     </>
