@@ -1,5 +1,6 @@
 
 import './App.css'
+import Appointment from './components/appointment/Appointment'
 import Banner from './components/banner/Banner'
 import Faq from './components/faq/Faq'
 import Navbar from './components/navbar/Navbar'
@@ -19,6 +20,7 @@ function App() {
           <Service></Service>
           <Testimonial></Testimonial>
           <Faq></Faq>
+          <Appointment></Appointment>
         </div>
       </div>
     </>

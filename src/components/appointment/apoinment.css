@@ -1,0 +1,6 @@
+.bg-gradient-img {
+    background-image: linear-gradient(to right, rgba(2,0,67, 0.9) 15%, rgba(2,0,67, 0.5) 85%), url('../../assets/Media/appointment.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+  }
